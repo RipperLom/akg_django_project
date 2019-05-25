@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd85609a-cdea-41c1-818c-04985ab0f975" name="Default" comment="" />
+    <list default="true" id="dd85609a-cdea-41c1-818c-04985ab0f975" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/csv_or_txt_files/hudong_pedia_new.csv" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,12 +23,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/akg_django_project/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="320">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hudong_pedia_new.csv" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data/csv_or_txt_files/hudong_pedia_new.csv">
+          <provider selected="true" editor-type-id="LargeFileEditor">
+            <state relative-caret-position="64">
+              <caret line="1" column="161" lean-forward="true" selection-start-line="1" selection-start-column="161" selection-end-line="1" selection-end-column="161" />
             </state>
           </provider>
         </entry>
@@ -47,7 +58,9 @@
     <option name="width" value="885" />
     <option name="height" value="1053" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -98,6 +111,12 @@
               <item name="akg_django_project" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="akg_django_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="akg_django_project" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="csv_or_txt_files" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -109,6 +128,11 @@
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PythonDjangoProject\akg_django_project\data\csv_or_txt_files" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -210,8 +234,15 @@
     <entry file="file://$PROJECT_DIR$/akg_django_project/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/csv_or_txt_files/hudong_pedia_new.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="64">
+          <caret line="1" column="161" lean-forward="true" selection-start-line="1" selection-start-column="161" selection-end-line="1" selection-end-column="161" />
         </state>
       </provider>
     </entry>
