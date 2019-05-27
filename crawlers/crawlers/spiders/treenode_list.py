@@ -1,7 +1,10 @@
 # -*- coding: utf-8 -*-
 import scrapy
-
-from Step1CrawlerAndAnalysis.AllSpiders.AllSpiders.items import TreeNodeItem
+import sys
+from config import rootPath
+sys.path.append(r'D:\PythonDjangoProject\akg_django_project')
+from crawlers.items import TreeNodeItem
+# from Step1CrawlerAndAnalysis.AllSpiders.AllSpiders.items import TreeNodeItem
 from urllib import parse
 class TreeNodeSpider(scrapy.Spider):
     name = 'treenode'

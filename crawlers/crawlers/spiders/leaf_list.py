@@ -3,7 +3,9 @@
 # Email: zhaoguanzhi1992@163.com
 
 import scrapy
-from Step1CrawlerAndAnalysis.AllSpiders.AllSpiders.items import LeafItem
+import sys
+sys.path.append(r'D:\PythonDjangoProject\akg_django_project')
+from crawlers.items import LeafItem
 from urllib import parse
 from urllib.parse import quote,unquote
 from copy import deepcopy
@@ -14,7 +16,7 @@ class LeafListSpider(scrapy.Spider):
 
     def start_requests(self):
         item = LeafItem()
-        with open('../AllData/treenode_list.txt', 'r', encoding ='utf-8') as f:
+        with open(r'D:\PythonDjangoProject\akg_django_project\data\csv_or_txt_files\treenode_list.txt', 'r', encoding ='utf-8') as f:
             pre_str = 'http://fenlei.baike.com/'
             for u_str in f.readlines():
                 u_str = u_str.strip()

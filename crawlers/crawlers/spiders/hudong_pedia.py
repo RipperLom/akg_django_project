@@ -1,5 +1,7 @@
 import scrapy
-from Step1CrawlerAndAnalysis.AllSpiders.AllSpiders.items import HudongItem
+import sys
+sys.path.append(r'D:\PythonDjangoProject\akg_django_project')
+from crawlers.items import HudongItem
 import urllib
 
 split_sign = '##'  # 定义分隔符
@@ -9,7 +11,7 @@ class HudongSpider(scrapy.Spider):
 	allowed_domains = ["http://www.baike.com"]    #声明地址域
 
 
-	file_object = open('../AllData/crawled_leaf_list.txt','r', encoding='utf-8').read()
+	file_object = open(r'D:\PythonDjangoProject\akg_django_project\data\csv_or_txt_files\crawled_leaf_list.txt', 'r', encoding='utf-8').read()
 	wordList = file_object.split()  # 获取词表
 
 	start_urls = []

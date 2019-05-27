@@ -5,6 +5,7 @@
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 
+from config import rootPath
 
 class CrawlersPipeline(object):
     def process_item(self, item, spider):
@@ -28,7 +29,7 @@ class TreeNodePipeline(object):
     def open_spider(self, spider):
         # spider filter
         if spider.name == 'treenode':
-            self.file = open('../AllData/treenode_list.txt', 'w',
+            self.file = open(r'D:\PythonDjangoProject\akg_django_project\data\csv_or_txt_files\treenode_list.txt', 'w',
                              encoding ='utf-8')
             self.file.write('农业' + '\n')
             pass
