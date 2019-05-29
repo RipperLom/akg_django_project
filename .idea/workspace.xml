@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd85609a-cdea-41c1-818c-04985ab0f975" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/akg_django_project/index_ERform_view.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/akg_django_project/index_view.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/django_washed_files/predict_labels.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/neo4j_washed_files/hudong_pedia2.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/neo4j_washed_files/new_node.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/neo4j_washed_files/static_weather_list.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/neo4j_washed_files/weather_plant.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/neo4j_washed_files/wikidata_relation.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/neo4j_washed_files/wikidata_relation2.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/toolkit/models/neo4j_model.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/toolkit/util/NER.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/toolkit/util/pre_load.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/akg_django_project/settings.py" afterPath="$PROJECT_DIR$/akg_django_project/settings.py" />
-      <change beforePath="$PROJECT_DIR$/akg_django_project/urls.py" afterPath="$PROJECT_DIR$/akg_django_project/urls.py" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/neo4j_washed_files/attributes.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/neo4j_washed_files/city_weather.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/neo4j_washed_files/dataList.jpg" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,18 +20,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/akg_django_project/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <element signature="e#642#674#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index_ERform_view.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/akg_django_project/index_ERform_view.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -130,12 +104,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hudong_pedia2.csv" pinned="false" current-in-tab="true">
+      <file leaf-file-name="hudong_pedia2.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/neo4j_washed_files/hudong_pedia2.csv">
           <provider selected="true" editor-type-id="LargeFileEditor">
+            <state relative-caret-position="96">
+              <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="attributes.csv" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data/neo4j_washed_files/attributes.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
+          </provider>
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
           </provider>
         </entry>
       </file>
@@ -229,6 +216,12 @@
               <item name="akg_django_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="akg_django_project" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="akg_django_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="akg_django_project" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="django_washed_files" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="akg_django_project" type="b2602c69:ProjectViewProjectNode" />
@@ -400,6 +393,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="929" y="3" width="989" height="1053" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5037675" order="7" side_tool="true" content_ui="tabs" />
@@ -407,7 +401,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24327233" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24327233" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -434,16 +428,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/akg_django_project/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="e#642#674#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/csv_or_txt_files/hudong_pedia_new.csv">
       <provider selected="true" editor-type-id="LargeFileEditor">
         <state relative-caret-position="16">
@@ -824,9 +808,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/neo4j_washed_files/hudong_pedia2.csv">
       <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="96">
+          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/neo4j_washed_files/attributes.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
   </component>
